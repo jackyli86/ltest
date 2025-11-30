@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ltest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="test_thread_group.cpp">
+      <Filter>test_boost</Filter>
+    </ClCompile>
+    <ClCompile Include="test_share_memory.cpp">
+      <Filter>test_others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="test_boost">
+      <UniqueIdentifier>{7b860ebb-e727-491c-986d-5c18b0116bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_others">
+      <UniqueIdentifier>{8fc67005-8b14-449d-bf6a-6ea80493ea1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
