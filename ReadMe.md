@@ -27,7 +27,6 @@ VCPKG_DEFAULT_TRIPLET=x64-windows-static
 
 ```
 // 全局安装
-vcpkg install --classic
 vcpkg install --x-install-root={vcpkg_root}\installed 
 ```
 
