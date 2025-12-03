@@ -15,7 +15,7 @@ bootstrap-vcpkg.bat
 .\vcpkg.exe integrate install
 
 // 设置环境变量
-VCPKG_ROOT=vcpkg_root
+VCPKG_ROOT={vcpkg_root}
 
 // TRIPLET默认是x64-windows
 // 注意当不是默认值时,需要在VS中指定TRIPLET
@@ -27,6 +27,6 @@ VCPKG_DEFAULT_TRIPLET=x64-windows-static
 
 ```
 // 全局安装
-vcpkg install --classic
+vcpkg install --x-install-root={vcpkg_root}\installed 
 ```
 
