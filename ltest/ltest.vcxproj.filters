@@ -15,6 +15,15 @@
     <ClCompile Include="test_memory_barrier.cpp">
       <Filter>others</Filter>
     </ClCompile>
+    <ClCompile Include="test_sync_mutex.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
+    <ClCompile Include="test_sync_semaphore.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
+    <ClCompile Include="test_sync_event.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />

@@ -29,6 +29,6 @@ GTEST_TEST(others, memory_barrier) {
 		thread_group.join_all();
 
 		boost::this_thread::sleep_for(boost::chrono::milliseconds(10));
-	} while (true);
+	} while (false);
 
 }

@@ -27,7 +27,7 @@ GTEST_TEST(others, spinlock) {
 				InterlockedExchange(&td.lock, 0L);
 
 				boost::this_thread::sleep_for(boost::chrono::milliseconds(10));
-			} while (true);
+			} while (td.age < 100);
 		})
 	);
 
@@ -46,7 +46,7 @@ GTEST_TEST(others, spinlock) {
 
 				boost::this_thread::sleep_for(boost::chrono::milliseconds(10));
 
-			} while (true);
+			} while (td.age < 100);
 		})
 	);
 

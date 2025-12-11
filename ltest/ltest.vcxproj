@@ -21,6 +21,9 @@
     <ClCompile Include="test_memory_barrier.cpp" />
     <ClCompile Include="test_share_memory.cpp" />
     <ClCompile Include="test_spinlock.cpp" />
+    <ClCompile Include="test_sync_event.cpp" />
+    <ClCompile Include="test_sync_semaphore.cpp" />
+    <ClCompile Include="test_sync_mutex.cpp" />
     <ClCompile Include="test_thread_group.cpp" />
   </ItemGroup>
   <ItemGroup>
