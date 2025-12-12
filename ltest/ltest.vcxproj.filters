@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="ltest.cpp" />
@@ -22,6 +22,12 @@
       <Filter>others</Filter>
     </ClCompile>
     <ClCompile Include="test_sync_event.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
+    <ClCompile Include="test_asio.cpp">
+      <Filter>boost</Filter>
+    </ClCompile>
+    <ClCompile Include="test_sync_cv.cpp">
       <Filter>others</Filter>
     </ClCompile>
   </ItemGroup>

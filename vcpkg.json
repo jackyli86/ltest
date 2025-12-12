@@ -5,6 +5,10 @@
       "name": "boost-thread",
       "version>=": "1.89.0"
     },
+	{
+      "name": "boost-asio",
+      "version>=": "1.89.0"
+    },
     "curl",
     {
       "name": "fmt",

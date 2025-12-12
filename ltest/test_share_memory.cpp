@@ -1,4 +1,4 @@
-﻿#include "stdafx.h"
+#include "stdafx.h"
 
 constexpr auto SM_NAME = "gsm";
 constexpr auto PLAYER_NUMBER = 10;
